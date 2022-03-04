@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+@font-face{
+    font-family: 'klavika bold';
+    src: url(../fonts/klavika-bold.otf);
+}
+
+header{
+    padding: 8px 0;
+    background-color: #4267B2;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo{
+    color: white;
+    float: left;
+}
+
+.logo h2{
+    
+    font-family: 'klavika bold';
+    font-size: 50px;
+}
+
+form.form-login{
+    float: right;
+}
+
+.form-element{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+.form-element:nth-of-type(1){
+    vertical-align: top;
+}
+
+.form-element p{
+    color: white;
+    font-size: 12px;
+    margin-left: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-element:nth-of-type(2) > p:last-child{
+    font-size: 12px;
+    
+}
+
+.form-element:nth-of-type(2) > p:last-child a{
+    text-decoration: none;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.form-element input[type=text],.form-element input[type=password]{
+    margin-top: 3px;
+    border: 1px solid rgb(158, 166, 240);
+    padding-left: 5px;
+}
+
+.form-element input[type=text],.form-element input[type=password]:focus{
+    outline: 0;
+}
+
+.form-element input[type=submit]{
+    background-color: #2d60c5;
+    cursor: pointer;
+    border: 2px solid #1d54c2;
+    color: white;
+    padding: 3px 5px;
+}
+
+.form-element input[type=submit]:hover{
+    background-color: #11429c;
+}
+
+section.main{
+    background: linear-gradient(white,#D3D8E8);
+    padding: 40px 0;
+}
+
+section .img-painel{
+    float: left;
+    width: 60%;
+
+}
+
+.img-painel h3{
+    font-size: 19px;
+    max-width: 75%;
+    margin: 0 20px;
+    font-family: sans-serif;
+}
+
+section .img-painel img{
+    max-width: 80%;
+    margin-left: 7px;
+}
+
+.main-form{
+    float: left;
+    width: 40%;
+}
+
+.main-form h2{
+    margin-top: -20px;
+    font-size: 32px;
+}
+
+.main-form h3{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+form.create-a-new-account{
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+
+
+.main-form-element-w50{
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+}
+
+.main-form-element-w100{
+    width: 100%;
+    float: left;
+    padding: 0 5px;
+}
+
+.create-a-new-account input{
+    width: 100%;
+}
+
+.create-a-new-account input:focus{
+    outline: 0;
+}
+
+.create-a-new-account input[type=text], .create-a-new-account input[type=password]{
+    margin-top: 8px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 5px;
+    border: 1px solid rgb(158, 166, 240);
+    border-radius: 5px;
+}
+
+
+.main-form-submit input[type=submit]{
+    height: 35px;
+    width: 100%;
+    color: white;
+    border: 1px solid #3f8a22;
+    background: linear-gradient(#67ae55, #40722d);
+    max-width: 175px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-form-element-w100 p:first-of-type{
+    font-size: 18px;
+    color: #1D2129;
+    margin-top: 10px;
+}
+
+.main-form-element-w100 p:last-of-type{
+    font-size: 11px;
+    margin-top: 2px;
+    width: 90%;
+}
+
+.main-form-element-w100 p:last-of-type a{
+    color: blue;
+}
+
+.main-form-element-w100 select.birthday:last-of-type{
+    margin-right: 4px;
+}
+
+.main-form-element-w100 select.birthday{
+    float: left;
+    border-radius: 0px;
+    height: 25px;
+    width: 15%;
+    margin-top: 5px;
+    background-color: white;
+    padding: 0px 5px;
+}
+
+.main-form-element-w100 select.birthday:focus{
+    outline: 0;
+}
+
+.input-radio{
+    float: left;
+    margin: 15px 10px;
+}
+
+.input-radio h5{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+.input-radio input[type=radio]{
+    display: inline-block;
+    width: auto !important;
+    cursor: pointer;
+}
+
+.alert{
+    font-size: 9.5px;
+    width: 60%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.alert a{
+    text-decoration: none;
+    color: #1d54c2;
+}
+
+section.languages,section.others{
+    padding: 15px 0;
+}
+
+section.languages a,section.others a{
+    color: #365899;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px
+}
+
+section.languages a.selected{
+    color: #737373
+}
+
+section.languages .center{
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.others p{
+    font-size: 12px;
+    margin: 25px 30px;
+    color: #aaa;
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    form.form-login{
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .form-login .form-element{
+        display: block;
+        margin: 10px 0; 
+    }
+
+    .form-element input[type=text],.form-element input[type=password]{
+        width: 98%;
+        height: 30px;
+    }
+
+    .form-login input[type=submit]{
+        margin-top: 10px;
+        width: 25%;
+        height: 40px;
+    }
+
+    section.main .img-painel{
+        display: none;
+    }
+
+    section.main .main-form{
+        width: 100%;
+    }
+
+    .main-form{
+        text-align: center;
+    } 
+
+    .input-radio{
+        float: none;
+        display: inline-block;
+    }
+
+    .main-form-element-w100 select.birthday{
+        width: 20%;
+        max-width: 70px;
+        float: none;
+        display: inline-block;
+        margin-left: -5px;
+        
+    }
+
+}
